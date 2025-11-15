@@ -1,0 +1,43 @@
+name: idrone
+description: A new Flutter project.
+
+# Proje versiyon kontrolü
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0' 
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  cupertino_icons: ^1.0.8
+  
+  # KRİTİK EKLENTİLER:
+  provider: ^6.1.1 
+  intl: ^0.19.0 
+  collection: ^1.18.0 
+
+  # 💥 KRİTİK EKLENTİ: image_picker ile ilgili tüm hataları çözer
+  image_picker: ^1.0.4 
+
+  # Projenizin ihtiyaç duyabileceği diğer yaygın paketler (gerekirse ekleyin/açıklamayı kaldırın)
+  # http: ^1.1.0 
+  # firebase_core: ^2.24.0
+  # shared_preferences: ^2.2.2 
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.1 
+
+# Uygulama varlıkları (Assets) bölümü
+flutter:
+  
+  uses-material-design: true
+
+  # assets:
+  #   - images/
