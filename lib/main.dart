@@ -21,7 +21,7 @@ import 'screens/pilot_service_management_screen.dart';
 // 🚀 YENİ İMPORT: Ödeme Ekranı Eklendi
 import 'screens/payment_screen.dart';
 
-
+// Main kısmında bazı değişiklikler yapılacak
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
   SystemChrome.setPreferredOrientations([
